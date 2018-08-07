@@ -12,4 +12,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="New Activity" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_my_icon"
+        android:layout_margin="16dp" />
+
 </LinearLayout>
